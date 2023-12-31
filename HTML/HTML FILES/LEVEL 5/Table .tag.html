@@ -1,0 +1,70 @@
+<!-- TABLE TAGS-->
+<!-- Tags used are = <tr>, <td>, <th> 
+    <tr>= Table row : used to define a row in an HTML table
+    <th>= Table header: used for header cells within a row
+        text is bold and centered by default
+    <td>= Table data: This holds the actual data-->
+
+<!-- CAPTION = it will show title given outside or top of table
+must be inserted immediately after <table> opening
+    it is default centered in middle of table--> 
+    
+<!-- COL or column spans 
+uses <td> or<th> tag
+allows cells to span multiple column horizontally
+takes the space of the specified no of columns
+useful for combining cells to create complex table    -->   
+
+
+
+        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <table border = "1">
+        <caption>My programming sheet</caption>
+        <tr>
+            <th colspan="4">PROGRAMMING LANGUAGE</th>
+        </tr>
+
+        <tr>
+            <th>SN</th>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Years</th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>c</td>
+            <td>5/10</td>
+            <td>5 years</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>java</td>
+            <td>8/10</td>
+            <td>7 years</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>python</td>
+            <td>9/10</td>
+            <td>10 years</td>
+        </tr>
+        <tr>
+            <td colspan="4">This table has five rows and four column</td>
+        </tr>
+    </table>
+</body>
+</html>
+        
+        
